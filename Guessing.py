@@ -10,7 +10,7 @@ while play_game == True:
         break
     else:
         if player > comp:
-            print("The number should be lower: ")
+            print("The number should be lower ")
         elif player < comp:
-            print("The number should be higher: ")
+            print("The number should be higher ")
 
