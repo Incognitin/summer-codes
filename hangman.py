@@ -25,7 +25,7 @@ def hangman():
                 time.sleep(1)
                 print(display_list)
               
-            elif Guess not in word_list:
+            elif Guess not in word_list and Guess.isalpha() :
                 count += 1
 
             while word_list == list(display_list) or list(Guess) == word_list:
